@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+
+            docBase="DataBase"
+            path="/DataBase"
+            reloadable="true"
+            source="org.eclipse.jst.jee.server:DataBase">
+        <Resource
+                auth="Container"
+                driverClassName="oracle.jdbc.driver.OracleDriver"
+                loginTimeout="10" maxWait="5000"
+                name="jdbc/pool"
+                password="123456"
+                type="javax.sql.DataSource"
+                url="jdbc:oracle:thin:@localhost:1521:XE"
+                username="system"/>
+</Context>
+
+
